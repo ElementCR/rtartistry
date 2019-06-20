@@ -48,12 +48,44 @@ html, body{
   color: #61dafb;
 }
 
-#content-body{
-  background-color:#4E5D6C;
-  height:100%;
-  background-repeat: no-repeat!important;
+@media screen and (min-width: 601px) {
+  body {
+    background-color: #4E5D6C;
+  }
+  .container{
+    width:100%
+  }
+
+  #footerFlex{
+    display:flex;
+    position:absolute;
+    bottom:0;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #content-body{
+    background-color:#4E5D6C;
+    height:inherit;
+    background-repeat: no-repeat!important;
+  }
+
+  #ContactImg{
+    max-width: 35em;
+    max-height:35em;
+  }
+
+  #content-gallery{
+    background-color:#4E5D6C;
+    height:100%;
+    background-repeat: no-repeat!important;
+  }
 }
 
+/* This is mobile */
 @media only screen and (max-width: 600px) {
   body {
     background-color: #4E5D6C;
@@ -61,6 +93,36 @@ html, body{
   .container{
     width:100%
   }
+
+  #content-body{
+    background-color:#4E5D6C;
+    height:100%;
+    background-repeat: no-repeat!important;
+  }
+
+  #content-gallery{
+    background-color:#4E5D6C;
+    background-repeat: no-repeat!important;
+  }
+
+  #footerFlex{
+    padding-top:4em;
+    display:flex;
+    bottom:0;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#4E5D6C;
+  }
+
+
+#ContactImg{
+  max-width: 23em;
+  max-height:23em;
+}
+
 }
 
 #basic-navbar-nav{
@@ -78,17 +140,6 @@ html, body{
 
 #nav-item-end{
   justify-self:flex-end;
-}
-
-#footerFlex{
-  display:flex;
-  position:absolute;
-  bottom:0;
-  justify-content: space-between;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #footer-img{
@@ -113,6 +164,7 @@ html, body{
 .gallery-item{
   max-width: 15em;
   max-height: 15em;
+  padding-top:3em;
 }
 
 .gallery-row{
@@ -123,11 +175,6 @@ html, body{
   border-radius:50%;
   max-width: 20em;
   max-height: 20em;
-}
-
-#ContactImg{
-  max-width: 35em;
-  max-height:35em;
 }
 
 .sm-icon{

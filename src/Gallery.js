@@ -6,7 +6,7 @@ import Split1 from './images/split1.jpg'
 class Gallery extends Component {
     render() {
         return (
-            <div className="container" id="content-body">
+            <div className="container" id="content-gallery">
                 <NavBar/>
                 <h1>Gallery</h1>
                 <Row className="gallery-row">
