@@ -8,6 +8,7 @@ import Commission from './Commission';
 import About from './About';
 import Contact from './Contact';
 import Gallery from './Gallery';
+import Footer from './footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/gallery' component={Gallery}/>
         </Switch>
       </Router>
+      <Footer/>
     </div>
   );
 }
