@@ -16,12 +16,10 @@ class About extends Component {
                     <Col>
                         <h2>Riley</h2>
                         <div>
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph <br/> <br/>
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph <br/>
-                            Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph <br/>
+                            Meet Riley! One of the most innovative Spray-Paint and Graffiti artists in the wonderful city of Chattanooga, TN.
+                            <br/> <br/>
+                            Inspired by the love of Space, Gaming, and Animation. Riley infuses their work with symbolism that resonates with all geeks and nerds alike. <br/> <br/>
+                            You can always expect Riley to bring a twist to nerd-core imagery with color, texture, and grit.<br/>
                         </div>
                     </Col>
                 </Row>
