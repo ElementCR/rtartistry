@@ -83,6 +83,9 @@ html, body{
     height:100%;
     background-repeat: no-repeat!important;
   }
+  .banner{
+    max-width: 55em;
+  }
 }
 
 /* This is mobile */
@@ -117,12 +120,14 @@ html, body{
     background-color:#4E5D6C;
   }
 
+  .banner{
+    max-width: inherit;
+  }
 
-#ContactImg{
-  max-width: 23em;
-  max-height:23em;
-}
-
+  #ContactImg{
+    max-width: 23em;
+    max-height:23em;
+  }
 }
 
 #basic-navbar-nav{
@@ -181,8 +186,4 @@ html, body{
 .sm-icon{
   max-width: 3em;
   max-height: 3em;
-}
-
-.banner{
-  max-width: 55em;
 }
