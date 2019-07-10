@@ -18,6 +18,7 @@ class Gallery extends Component {
                 <Row className="gallery-row">
                     <Col>
                         <Image className="gallery-item" src={Split1} />
+                        <p>Hi there!</p>
                     </Col>
                     <Col>
                         <Image className="gallery-item" src={Split2} />                  
