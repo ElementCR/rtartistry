@@ -10,13 +10,15 @@ class Contact extends Component {
         return (
             <div className="container" id="content-body">
                 <NavBar/>
-                <h1>Contact Me</h1>
+                <h1>Commission Work & Contact Me</h1>
                 <Row className="gallery-row">
                     <Col>
                         <Image id="ContactImg" src={Booth1} />
                     </Col>
+                </Row>
+                <Row>
                     <Col>
-                        <h2>Riley</h2>
+                    <h2>Riley</h2>
                         <div>
                            Phone Number: ###-###-####
                            <br/>
@@ -39,7 +41,7 @@ class Contact extends Component {
                            </Row>
                         </div>
                     </Col>
-                    </Row>
+                </Row>
             </div>
         );
     }
