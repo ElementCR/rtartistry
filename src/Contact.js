@@ -21,10 +21,10 @@ class Contact extends Component {
                     <Col>
                     <h2>Riley</h2>
                         <div>
-                           Phone Number: ###-###-####
+                           Phone Number: 717-753-5554
                            <br/>
                            <br/>
-                           Email: <a href="mailto:emailhere@gmail.com">Click Here</a>
+                           Email: <a href="mailto:roundtableartistry@gmail.com">Click Here</a>
                            <br/>
                            <br/>
                            <Row>
