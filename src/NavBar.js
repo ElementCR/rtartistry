@@ -13,7 +13,7 @@ function NavBar() {
           src={Combo}
           className="d-inline-block align-top"
           alt="RT Logo"
-          width="50em"
+          width="75em"
         />
       </Navbar.Brand>
       <Navbar.Brand href="/"id="icon">
