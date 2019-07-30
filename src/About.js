@@ -13,7 +13,7 @@ class About extends Component {
                     <Col>
                         <Image id="portrait" src={Portrait} />
                     </Col>
-                    <Col>
+                    <Col id="bio-text">
                         <h2>Riley</h2>
                         <div>
                             Meet Riley! One of the most innovative Spray-Paint and Graffiti artists in the wonderful city of Chattanooga, TN.
