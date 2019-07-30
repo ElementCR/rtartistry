@@ -5,6 +5,7 @@ import Booth1 from './images/booth1.jpg'
 import {Row, Col, Image} from "react-bootstrap"
 import FBImg from "./images/fbimg.png"
 import IGImg from "./images/igimg.png"
+
 class Contact extends Component {
     render() {
         return (
